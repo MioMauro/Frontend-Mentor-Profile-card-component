@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    height: 720px;    
+    background-color: hsl(185, 75%, 39%); 
+}
+
+.images{
+    width: 1440px;
+    height: 720px; 
+}
+
+.images .leftimg{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -500px;
+}
+
+.images .rightimg{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 500px;
+}
+
+.maincontainer{
+    position: absolute;
+    width: 350px;
+    height: 374px;    
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+
+.maincontainer .upimage{
+    width: 350px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.maincontainer .upimage img{
+    border-radius: 10px 10px 0 0;
+}
+
+.maincontainer .photo{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;   
+}
+
+.maincontainer .photo img{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.maincontainer .name{
+    display: flex;      
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.maincontainer .name h1{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;    
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.maincontainer .name span{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;    
+    font-weight: 700;
+    color: hsl(227, 10%, 46%);
+}
+
+.maincontainer .city{
+    display: flex;      
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.maincontainer hr{
+    position: absolute;
+    width: 350px;
+    margin-top: 20px;
+    border: solid 0.01rem;
+    color: hsl(0, 14%, 89%);  
+    border-bottom: none;    
+}
+
+.maincontainer h4{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;    
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+.maincontainer .tons{
+    margin-top: 35px;
+    display: flex;    
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.maincontainer .tons .numbers{
+    width: 30px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 20px;    
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.maincontainer .social{      
+    display: flex;    
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.maincontainer .social .content{
+    width: 30px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;    
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+
+
